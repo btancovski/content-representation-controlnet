@@ -75,7 +75,7 @@ Nvidia GPU with 8GB+ VRAM and modifications to the provided code.
 
 Upload the full project and the model to Google Drive (the model goes into the models folder)
 
-Copy the files in the ```/ControlNet``` to the Google Drive folder (replacing existing files). Unzip the zipped generated dataset in /data.
+Copy the files in the ```/ControlNet``` to the Google Drive folder (replacing existing files). Unzip the zipped generated datasets in /data/generated_i400_v5w1.
 
 ### Training
 
