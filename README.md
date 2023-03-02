@@ -74,6 +74,4 @@ Copy the files in the ```/ControlNet``` to the Google Drive folder (replacing ex
 
 ### Training
 
-Open ```colab_train.ipynb```, enable GPU acceleration and execute the first cell* and then every other cell in order. The outputs of the model will be saved in a newly created folder /image_log.
-
-* The Runtime will disconnect after running the first cell - this is expected. Proceed with running all other cells after
+Open ```colab_train.ipynb```, enable GPU acceleration and execute the first cell (the runtime will disconnect after this - this is expected) and then every other cell in order. The outputs of the model will be saved in a newly created folder /image_log.
