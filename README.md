@@ -10,6 +10,7 @@ This section shows the setup for generating a Content Representation of an image
 - Python 3.7-3.10 (tested on 3.9)
 
 - Anaconda / Miniconda 
+
 ```curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh```
 
 ```bash Miniconda3-latest-Linux-x86_64.sh```
@@ -32,9 +33,9 @@ Download /ContentRepresentation and navigate to the folder
 
 ```python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"```
 
-```cd data && curl http://cs231n.stanford.edu/tiny-imagenet-200.zip```
+```cd data/input && curl http://cs231n.stanford.edu/tiny-imagenet-200.zip```
 
-```unzip -qq 'tiny-imagenet-200.zip' && cd ..```
+```unzip -qq 'tiny-imagenet-200.zip' && cd ../..```
 
 ```python3 generate_content_representations.py --help```
 
