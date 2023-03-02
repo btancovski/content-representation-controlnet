@@ -32,6 +32,10 @@ Download /ContentRepresentation and navigate to the folder
 
 ```python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"```
 
+```cd data && curl http://cs231n.stanford.edu/tiny-imagenet-200.zip```
+
+```unzip -qq 'tiny-imagenet-200.zip' && cd ..```
+
 ```python3 generate_content_representations.py --help```
 
 
