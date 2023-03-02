@@ -1,0 +1,5 @@
+numpy
+tf-nightly
+tensorrt
+matplotlib
+opencv-python
